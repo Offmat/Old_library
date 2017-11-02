@@ -1,0 +1,107 @@
+---
+- !ruby/object:Book
+  series: true
+  name: Metro 2033
+  author: D.Glukhowski
+  kind: Fantasy
+  rate: 8.0
+  comment: no comment
+  series_name: Metro
+  volume: '1'
+- !ruby/object:Book
+  series: true
+  name: Metro 2034
+  author: D.Glukhowski
+  kind: Fantasy
+  rate: 7.5
+  comment: no comment
+  series_name: Metro
+  volume: '2'
+- !ruby/object:Book
+  series: false
+  name: Wyprawa czarownic
+  author: T.Pratchett
+  kind: Fantasy
+  rate: "??"
+  comment: no comment
+- !ruby/object:Book
+  series: false
+  name: Komórka
+  author: S.King
+  kind: Fantasy
+  rate: 7.2
+  comment: no comment
+- !ruby/object:Book
+  series: false
+  name: Cztery pory roku
+  author: S.King
+  kind: Fantasy
+  rate: 8.2
+  comment: no comment
+- !ruby/object:Book
+  series: false
+  name: Zgroza w Dunwich
+  author: H.P.Lovecraft
+  kind: Horror
+  rate: 8.4
+  comment: no comment
+- !ruby/object:Book
+  series: false
+  name: Dzienniki gwiazdowe
+  author: S.Lem
+  kind: Science fiction
+  rate: 8.6
+  comment: no comment
+- !ruby/object:Book
+  series: true
+  name: Metro 2033
+  author: D.Glukhowski
+  kind: Fantasy
+  rate: 8.0
+  comment: no comment
+  series_name: Metro
+  volume: '1'
+- !ruby/object:Book
+  series: true
+  name: Metro 2034
+  author: D.Glukhowski
+  kind: Fantasy
+  rate: 7.5
+  comment: no comment
+  series_name: Metro
+  volume: '2'
+- !ruby/object:Book
+  series: false
+  name: Wyprawa czarownic
+  author: T.Pratchett
+  kind: Fantasy
+  rate: "??"
+  comment: no comment
+- !ruby/object:Book
+  series: false
+  name: Komórka
+  author: S.King
+  kind: Fantasy
+  rate: 7.2
+  comment: no comment
+- !ruby/object:Book
+  series: false
+  name: Cztery pory roku
+  author: S.King
+  kind: Fantasy
+  rate: 8.2
+  comment: no comment
+- !ruby/object:Book
+  series: false
+  name: Zgroza w Dunwich
+  author: H.P.Lovecraft
+  kind: Horror
+  rate: 8.4
+  comment: no comment
+- !ruby/object:Book
+  series: false
+  name: Dzienniki gwiazdowe
+  author: S.Lem
+  kind: Science fiction
+  rate: 8.6
+  comment: no comment
