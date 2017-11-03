@@ -1,7 +1,7 @@
 class Game
-	attr_accessor :name, :platform, :rate, :ownership
+  attr_accessor :name, :platform, :rate, :ownership
 
-	def initialize
-		ownership = :owned
-	end
+  def initialize
+    ownership = :owned
+  end
 end

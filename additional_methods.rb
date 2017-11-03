@@ -1,54 +1,49 @@
-#method for checking Y/N answer:
-def check(text)											
-	loop do
-		print text
-		ans=gets.chomp.upcase
-		if ["Y", "YES"].include?(ans)	
-			return true
-			break
-		elsif ["N", "NO"].include?(ans)	
-			return false
-			break
-		else
-			print "Your answer is not correct. Pleas answer with 'Y' or 'N'\n"
-		end
-	end
+# method for checking Y/N answer:
+def check(text)
+  loop do
+    print text
+    ans=gets.chomp.upcase
+    if ['Y', 'YES'].include?(ans)
+      return true
+    elsif ['N', 'NO'].include?(ans)
+      return false
+    else
+      print "Your answer is not correct. Pleas answer with 'Y' or 'N'\n"
+    end
+  end
 end
 
-
-#method to check wheather input is float (comas and dots allowed)
+# method to check wheather input is float (comas and dots allowed)
 def float?(string)
-	b = Float(string.tr(',','.'))
-	return b
-	rescue ArgumentError
-	return false
+  b = Float(string.tr(',', '.'))
+  return b
+rescue ArgumentError
+  return false
 end
 
-
-#method to check wheather input is integer
+# method to check wheather input is integer
 def integer?(string)
-	b = Integer(string)
-	return b
-	rescue ArgumentError
-	return false
+  b = Integer(string)
+  return b
+rescue ArgumentError
+  return false
 end
 
 
 
-#method for choosing from the list
+# method for choosing from the list
 def choice(range)
-	input=""
-	loop do
-		input=gets.chomp
-		if (input.to_i<=(range-1))&&integer?(input)
-			break
-		elsif input=="a"
-			break
-		else
-			print "chosen number is not within the range. Please choose again witch correct number: "
-		end
-	end
-	input
+  input = ""
+  loop do
+    input = gets.chom
+    if (input.to_i <= (range - 1)) && integer?(input)
+      break
+    elsif input == 'a'
+      break
+    else
+      print 'chosen number is not within the range. '
+      + 'Please choose again witch correct number: '
+    end
+  end
+  input
 end
-
-
